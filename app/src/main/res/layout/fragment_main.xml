@@ -21,7 +21,8 @@
                 android:textSize="20sp"
                 android:text="Play something for"
                 android:paddingLeft="15dp"
-                android:paddingTop="5dp" />
+                android:paddingTop="5dp"
+                android:paddingBottom="10dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -45,7 +46,8 @@
                 android:textSize="20sp"
                 android:text="Play something for"
                 android:paddingLeft="15dp"
-                android:paddingTop="5dp" />
+                android:paddingTop="5dp"
+                android:paddingBottom="10dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -69,7 +71,8 @@
                 android:textSize="20sp"
                 android:text="Play something for"
                 android:paddingLeft="15dp"
-                android:paddingTop="5dp" />
+                android:paddingTop="5dp"
+                android:paddingBottom="10dp"/>
 
             <TextView
                 android:layout_width="wrap_content"

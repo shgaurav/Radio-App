@@ -5,6 +5,6 @@
     tools:context="com.example.gaurav.devslopesradio.fragments.StationsFragment">
 
     <!-- TODO: Update blank fragment layout -->
- <include layout="@layout/content_stations_recycler"> </include>
+    <include layout="@layout/content_stations_recycler"></include>
 
 </FrameLayout>

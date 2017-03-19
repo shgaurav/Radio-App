@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_25f51eff3ccc82b38973d671b01001d2e04d1d43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f1758dbd92cc55ecd3e477be1d9a3721aba9582">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9599d960b2bc3c45572981d72229d2cd5cf62a2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\.android\build-cache\1e2e39178cdbf50e01f34c8e14a145b4ab006018\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5e8d2c85b8bccb8b3eb8404630aaecf810bdf505\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\.android\build-cache\e11e25f2ced1cbe45158d7d84d9921d1f77a48cc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8b5774a41037e981e125748d70d60f4fcf4565c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gaurav\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_980e1d8c801f3d4420b6bcccc4b712335f2ace5d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\.android\build-cache\2dc4b65fa9050a611b72674742d76d0e9d2cbbad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_56e041f31adbc92b132caf9d214a45a5a2ae2bdc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_980e1d8c801f3d4420b6bcccc4b712335f2ace5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\.android\build-cache\90a8fcc34b9ff51defdd0ebb522c4256dd694f80\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4b4e62c128d19d46d652ff47d658b2007b634bfe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\.android\build-cache\300fbf653b9f69e882c75244206789f4c8ecaf7c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b4a07d90f976bef34856b0d492f9b4caefa27618\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\.android\build-cache\11a1cb474d0c906018ad5373ead6b9b1df46771a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8f1dcefade529ed66a5c0be38da01bd1287247c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\.android\build-cache\6cf24636d947e19d0e2f7efd1570bad073a5d316\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e701c649a69e1e02943c367a6485eacc4a27b4e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\.android\build-cache\16e8adfee035d951c8478716e2a03af012929248\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf6d90e78e5458cd7b736c77b7c80a4d3bc1e9dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\.android\build-cache\3b8ab4bb4f7154bd4723544e89693bbf8f7b7a6a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_04b44c5d2fbcb38c2b5046376d59b53f79efaf92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\.android\build-cache\e25b1eefb3c305d199227dee7065af8c84605c7a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_303ac32884a1018bee3061b24f2c162efb11a1fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gaurav\.android\build-cache\7e7ee365d2c578bddd281427d7326043e34b5c61\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Gaurav\AndroidStudioProjects\DevslopesRadio\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f384e7f9b1413811d5eaab849ee76f8b1954afb8\classes.dex" />
+    </item>
+
+</items>

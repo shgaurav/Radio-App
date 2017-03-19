@@ -1,6 +1,7 @@
 package com.example.gaurav.devslopesradio.fragments;
 
 
+import android.graphics.Rect;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,6 +12,7 @@ import android.view.ViewGroup;
 
 import com.example.gaurav.devslopesradio.R;
 import com.example.gaurav.devslopesradio.adapters.StationsAdapter;
+import com.example.gaurav.devslopesradio.services.DataService;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -20,13 +22,18 @@ import com.example.gaurav.devslopesradio.adapters.StationsAdapter;
 public class StationsFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+    private static final String ARG_STATION_TYPE = "station_type";
+
 
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
 
+    public static final int STATION_TYPE_FEATURED = 0;
+    public static final int STATION_TYPE_RECENT = 1;
+    public static final int STATION_TYPE_PARTY = 2;
+
+    private int station_type;
 
     public StationsFragment() {
         // Required empty public constructor
@@ -36,16 +43,15 @@ public class StationsFragment extends Fragment {
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
      *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
+     * @param station_type The radio stations type.
+
      * @return A new instance of fragment StationsFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static StationsFragment newInstance(String param1, String param2) {
+    public static StationsFragment newInstance(int station_type) {
         StationsFragment fragment = new StationsFragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+        args.putInt(ARG_STATION_TYPE, station_type);
         fragment.setArguments(args);
         return fragment;
     }
@@ -54,8 +60,7 @@ public class StationsFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
+            station_type = getArguments().getInt(ARG_STATION_TYPE);
         }
     }
 
@@ -67,9 +72,22 @@ public class StationsFragment extends Fragment {
         RecyclerView recyclerView = (RecyclerView)v.findViewById(R.id.recycler_stations);
         recyclerView.setHasFixedSize(true);
 
-        StationsAdapter adapter = new StationsAdapter();
-        recyclerView.setAdapter(adapter);
+        StationsAdapter adapter;
+        if (station_type == STATION_TYPE_FEATURED)
+        {
+            adapter = new StationsAdapter(DataService.getInstance().getFeaturedStations());
+        }
+        else if (station_type == STATION_TYPE_RECENT)
+        {
+            adapter = new StationsAdapter(DataService.getInstance().getRecentStations());
+        }
+        else
+        {
+            adapter = new StationsAdapter(DataService.getInstance().getPartyStations());
+        }
 
+        recyclerView.addItemDecoration(new HorizontalSpaceItemDecorator(30));
+        recyclerView.setAdapter(adapter);
 
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
         layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
@@ -80,4 +98,20 @@ public class StationsFragment extends Fragment {
         return v;
     }
 
+}
+
+class HorizontalSpaceItemDecorator extends RecyclerView.ItemDecoration
+{
+    private final int spacer;
+
+    public HorizontalSpaceItemDecorator(int spacer) {
+        this.spacer = spacer;
+
+    }
+
+    @Override
+    public void getItemOffsets(Rect outRect, View view, RecyclerView parent, RecyclerView.State state) {
+        super.getItemOffsets(outRect, view, parent, state);
+        outRect.right=spacer;
+    }
 }
